@@ -2,7 +2,7 @@ class Series {
   constructor(digits) {
     this.digits = digits;
   }
-
+  
   slices(length) {
     if (length > this.digits.length) {
       throw new Error();
