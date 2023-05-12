@@ -12,7 +12,7 @@ describe("Series", () => {
   });
 
   test("test simple slices of two", () => {
-    let series = new Series('01234');
+    let series = new Series('01234'); 
     expect(series.slices(2)).toEqual([[0, 1], [1, 2], [2, 3], [3, 4]]);
   });
 
