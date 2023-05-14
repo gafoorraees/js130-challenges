@@ -2,7 +2,7 @@ class Diamond {
   static makeDiamond(letter) {
     let startingLetter = 'A'.charCodeAt();
     let endingLetter = letter.toUpperCase().charCodeAt();
-    let distance = endingLetter - startingLetter
+    let distance = endingLetter - startingLetter;
     let space = 1;
     let topHalf = '';
     let bottomHalf = '';
